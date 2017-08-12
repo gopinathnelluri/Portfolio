@@ -14,7 +14,9 @@ result1=$?
 
 if [  "$result1" != 0 ]; then
 #  echo  'port 80 is closed'
-  node '/root/web/app.js'
+   nohup node '/root/web/app.js' &
+   /bin/sleep 1
+   rm nohup.out
 else
 #  echo 'port 80 is open'
 #  kill $(lsof -t -i:80)
