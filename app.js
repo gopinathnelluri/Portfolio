@@ -9,6 +9,8 @@ var path  = require("path");
 
 var app = express();
 
+app.use(express.static('files'))
+
 //proxy part
 var proxy = require('express-http-proxy');
 app.use('/shell', proxy('127.0.0.1:8599'));
