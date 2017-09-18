@@ -22,7 +22,7 @@ var options = {
 
 
 app.get("/",function(req,res){
-   res.sendFile(path.join(__dirname+'/index.html'));
+   res.sendFile(path.join(__dirname+'/files/index.html'));
   //res.send("Hello World<br/>My Portfolio in NodeJS & Ecpress  will be here soon..!");
 })
 
