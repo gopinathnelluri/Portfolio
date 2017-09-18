@@ -377,14 +377,14 @@ a {
   transition: all 0.3s ease;
 }
 a:hover {
-  background-color: #1b813e;
+  background-color: #0568ba;
   color: white;
 }
 a:active {
   color: #515151;
 }
 h1 {
-  color: #1b813e;
+  color: #0568ba;
   font-family: "Mercury Display A", "Mercury Display B", Palatino, serif;
   font-size: 3em;
   font-weight: 700;
@@ -393,7 +393,7 @@ h1 {
   line-height: 40px;
 }
 h2 {
-  color: #1b813e;
+  color: #0568ba;
   font-family: inherit;
   font-size: 1.5em;
   font-weight: 600;
@@ -402,7 +402,7 @@ h2 {
   line-height: 20px;
 }
 h3 {
-  color: #1b813e;
+  color: #0568ba;
   font-family: inherit;
   font-size: 1em;
   font-weight: 600;
@@ -411,7 +411,7 @@ h3 {
   line-height: 20px;
 }
 h4 {
-  color: #1b813e;
+  color: #0568ba;
   font-family: inherit;
   font-size: 1em;
   font-weight: 600;
@@ -420,7 +420,7 @@ h4 {
   line-height: 20px;
 }
 h5 {
-  color: #1b813e;
+  color: #0568ba;
   font-family: inherit;
   font-size: 1em;
   font-weight: 600;
@@ -429,7 +429,7 @@ h5 {
   line-height: 20px;
 }
 h6 {
-  color: #1b813e;
+  color: #0568ba;
   font-family: inherit;
   font-size: 1em;
   font-weight: 600;
@@ -445,7 +445,7 @@ ul > li {
   text-indent: -10px;
 }
 ul > li:before {
-  color: #1b813e;
+  color: #0568ba;
   content: "–";
   font-weight: 500;
   position: relative;
