@@ -5,6 +5,7 @@ var express = require("express");
 var https = require('https');
 var http = require('http');
 var fs = require('fs');
+var path  = require("path");
 
 var app = express();
 
@@ -21,7 +22,8 @@ var options = {
 
 
 app.get("/",function(req,res){
-  res.send("Hello World<br/>My Portfolio in NodeJS & Ecpress  will be here soon..!");
+   res.sendFile(path.join(__dirname+'/index.html'));
+  //res.send("Hello World<br/>My Portfolio in NodeJS & Ecpress  will be here soon..!");
 })
 
 http.createServer(app).listen(80);
